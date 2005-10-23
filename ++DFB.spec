@@ -1,12 +1,12 @@
 Summary:	Advanced version of C++ binding for DirectFB
 Summary(pl):	Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
-Version:	0.9.22
+Version:	0.9.23
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://www.directfb.org/download/DirectFB-extra/%{name}-%{version}.tar.gz
-# Source0-md5:	f4b777751fac4b00e36a684cc0950e01
+# Source0-md5:	3cac25b4480d27824d39321c6a964648
 URL:		http://www.directfb.org/index.php?path=Development/Projects/++DFB
 BuildRequires:	DirectFB-devel >= 1:%{version}
 BuildRequires:	autoconf >= 2.52
