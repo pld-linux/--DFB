@@ -31,7 +31,7 @@ odga³êzienie z zasadniczymi zmianami.
 
 Aplikacje nie zajmuj± siê ju¿ wska¼nikami do interfejsów. Klasy
 obudowuj±ce interfejsy s± u¿ywane jako kontenery dla wska¼nika na
-interfejs, udstêpniaj±c od¶miecanie w "bezpo¶redni" sposób.
+interfejs, udostêpniaj±c od¶miecanie w "bezpo¶redni" sposób.
 
 %package devel
 Summary:	++DFB header files
