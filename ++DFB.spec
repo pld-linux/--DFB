@@ -1,5 +1,5 @@
 Summary:	Advanced version of C++ binding for DirectFB
-Summary(pl):	Zaawansowana wersja interfejsu C++ do DirectFB
+Summary(pl.UTF-8):   Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
 Version:	0.9.25
 Release:	1
@@ -25,17 +25,17 @@ Applications no longer deal with interface pointers. The classes
 wrapping around interfaces are used as container for an interface
 pointer, providing garbage collection the "direct" way 8-)
 
-%description -l pl
+%description -l pl.UTF-8
 ++DFB to zaawansowana wersja DFB++. Jest to niekompatybilne
-odga³êzienie z zasadniczymi zmianami.
+odgaÅ‚Ä™zienie z zasadniczymi zmianami.
 
-Aplikacje nie zajmuj± siê ju¿ wska¼nikami do interfejsów. Klasy
-obudowuj±ce interfejsy s± u¿ywane jako kontenery dla wska¼nika na
-interfejs, udostêpniaj±c od¶miecanie w "bezpo¶redni" sposób.
+Aplikacje nie zajmujÄ… siÄ™ juÅ¼ wskaÅºnikami do interfejsÃ³w. Klasy
+obudowujÄ…ce interfejsy sÄ… uÅ¼ywane jako kontenery dla wskaÅºnika na
+interfejs, udostÄ™pniajÄ…c odÅ›miecanie w "bezpoÅ›redni" sposÃ³b.
 
 %package devel
 Summary:	++DFB header files
-Summary(pl):	Pliki nag³ówkowe ++DFB
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe ++DFB
 Group:		Development/Libraries
 # rpm can't stand cap beginning with '+'
 #Requires:	%{name} = %{version}-%{release}
@@ -47,12 +47,12 @@ Provides:	__DFB-devel = %{version}-%{release}
 %description devel
 Header files for ++DFB library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki ++DFB.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki ++DFB.
 
 %package static
 Summary:	++DFB static library
-Summary(pl):	Statyczna biblioteka ++DFB
+Summary(pl.UTF-8):   Statyczna biblioteka ++DFB
 Group:		Development/Libraries
 # rpm can't stand cap beginning with '+'
 #Requires:	%{name}-devel = %{version}-%{release}
@@ -61,7 +61,7 @@ Requires:	__DFB-devel = %{version}-%{release}
 %description static
 ++DFB static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka ++DFB.
 
 %prep
