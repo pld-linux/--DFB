@@ -1,5 +1,5 @@
 Summary:	Advanced version of C++ binding for DirectFB
-Summary(pl.UTF-8):   Zaawansowana wersja interfejsu C++ do DirectFB
+Summary(pl.UTF-8):	Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
 Version:	0.9.25
 Release:	1
@@ -35,7 +35,7 @@ interfejs, udostępniając odśmiecanie w "bezpośredni" sposób.
 
 %package devel
 Summary:	++DFB header files
-Summary(pl.UTF-8):   Pliki nagłówkowe ++DFB
+Summary(pl.UTF-8):	Pliki nagłówkowe ++DFB
 Group:		Development/Libraries
 # rpm can't stand cap beginning with '+'
 #Requires:	%{name} = %{version}-%{release}
@@ -52,7 +52,7 @@ Pliki nagłówkowe biblioteki ++DFB.
 
 %package static
 Summary:	++DFB static library
-Summary(pl.UTF-8):   Statyczna biblioteka ++DFB
+Summary(pl.UTF-8):	Statyczna biblioteka ++DFB
 Group:		Development/Libraries
 # rpm can't stand cap beginning with '+'
 #Requires:	%{name}-devel = %{version}-%{release}
