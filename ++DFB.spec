@@ -1,12 +1,12 @@
 Summary:	Advanced version of C++ binding for DirectFB
 Summary(pl.UTF-8):	Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
-Version:	0.9.25
+Version:	1.0.0
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
-Source0:	http://www.directfb.org/download/DirectFB-extra/%{name}-%{version}.tar.gz
-# Source0-md5:	c6a2705f6210d8ede50a947b375f1c0b
+Source0:	http://www.directfb.org/downloads/Extras/%{name}-%{version}.tar.gz
+# Source0-md5:	bfc2c45be253a5f25576587f61faff1b
 URL:		http://www.directfb.org/index.php?path=Development/Projects/++DFB
 BuildRequires:	DirectFB-devel >= 1:%{version}
 BuildRequires:	autoconf >= 2.52
@@ -95,7 +95,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS README
-# !needed conflict with DFB++
+%attr(755,root,root) %{_bindir}/dfbplay
+# not needed, conflict with DFB++
 #%attr(755,root,root) %{_bindir}/dfbshow
 #%attr(755,root,root) %{_bindir}/dfbswitch
 %attr(755,root,root) %{_libdir}/lib++dfb-*.so.*.*.*
