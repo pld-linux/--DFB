@@ -1,12 +1,12 @@
 Summary:	Advanced version of C++ binding for DirectFB
 Summary(pl.UTF-8):	Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
-Version:	1.0.0
+Version:	1.4.2
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://www.directfb.org/downloads/Extras/%{name}-%{version}.tar.gz
-# Source0-md5:	bfc2c45be253a5f25576587f61faff1b
+# Source0-md5:	7f2672b391d9987f16a0768e87f12306
 URL:		http://www.directfb.org/index.php?path=Development/Projects/++DFB
 BuildRequires:	DirectFB-devel >= 1:%{version}
 BuildRequires:	autoconf >= 2.52
@@ -94,12 +94,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS README
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/dfbplay
 # not needed, conflict with DFB++
 #%attr(755,root,root) %{_bindir}/dfbshow
 #%attr(755,root,root) %{_bindir}/dfbswitch
-%attr(755,root,root) %{_libdir}/lib++dfb-*.so.*.*.*
+%attr(755,root,root) %{_libdir}/lib++dfb-1.4.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/lib++dfb-1.4.so.2
 
 %files devel
 %defattr(644,root,root,755)
@@ -107,7 +108,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/lib++dfb.so
 %{_libdir}/lib++dfb.la
 %{_includedir}/++dfb
-%{_pkgconfigdir}/*.pc
+%{_pkgconfigdir}/++dfb.pc
 %{_examplesdir}/%{name}-%{version}
 
 %files static
