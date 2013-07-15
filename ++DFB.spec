@@ -1,13 +1,14 @@
+# NOTE: for version >= 1.7.0+ see -c++-* subpackages in DirectFB.spec
 Summary:	Advanced version of C++ binding for DirectFB
 Summary(pl.UTF-8):	Zaawansowana wersja interfejsu C++ do DirectFB
 Name:		++DFB
 Version:	1.4.2
-Release:	1
+Release:	1.1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://www.directfb.org/downloads/Extras/%{name}-%{version}.tar.gz
 # Source0-md5:	7f2672b391d9987f16a0768e87f12306
-URL:		http://www.directfb.org/index.php?path=Development/Projects/++DFB
+URL:		http://www.directfb.org/index.php?path=Projects%2F%2B%2BDFB
 BuildRequires:	DirectFB-devel >= 1:%{version}
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
